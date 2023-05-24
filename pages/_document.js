@@ -1,9 +1,12 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
+
 export default function Document() {
   return (
-    <Html lang="en">
-      <Head />
+    <Html lang="uk">
+      <Head>
+        <script src="https://www.youtube.com/iframe_api" defer />
+      </Head>
       <body>
         <Main />
         <NextScript />
@@ -11,3 +14,4 @@ export default function Document() {
     </Html>
   )
 }
+

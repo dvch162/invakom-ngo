@@ -76,6 +76,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 4rem 0;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Other CSS styles remain unchanged */
+
+
+/* .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   padding: 4rem 0;
 }
@@ -106,7 +126,82 @@
 
 .logo {
   position: relative;
+} */
+
+/* Call to action button */
+/* .cta-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
 }
+
+.cta-button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cta-button span {
+  margin-left: 8px;
+  font-size: 18px;
+} */
+
+
+.my-component-cta {
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.cta-button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cta-button span {
+  margin-left: 8px;
+  font-size: 18px;
+}
+
+.my-component-cta .cta-button {
+  display: inline-block;
+  background-color: green;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.my-component-cta .cta-button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.my-component-cta .cta-button span {
+  margin-left: 8px;
+  font-size: 18px;
+}
+
+
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -227,3 +322,5 @@
     transform: rotate(0deg);
   }
 }
+
+
