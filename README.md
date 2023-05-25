@@ -1,40 +1,36 @@
 https://invacom-ngo.vercel.app/
 
+NGO Site with Payment Form and Contact Form
+This repository contains the source code for an NGO (Non-Governmental Organization) website built using Next.js. The website includes a payment form and a contact form, aiming to provide information about the NGO's mission, projects, and ways to support their cause.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+Payment Form
+The website includes a payment form that allows users to make donations securely. The form is integrated with a payment gateway API, enabling seamless online transactions. Users can enter their payment details, select the donation amount, and submit the form to complete the transaction.
+
+Contact Form
+To get in touch with the NGO, users can fill out the contact form provided on the website. The contact form collects information such as name, email address, and message. Once submitted, the NGO's team will receive the contact information and respond to the inquiry accordingly.
 ## Getting Started
 
-First, run the development server:
+Configuration
+The configuration settings for the NGO site can be found in the .env file. Before running the application, make sure to update the necessary environment variables, such as the database connection details and API keys for the payment gateway integration.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Contributing
+Contributions are welcome! If you would like to contribute to the project, please follow these guidelines:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Fork the repository.
+Create a new branch for your feature or bug fix: git checkout -b my-feature
+Commit your changes: git commit -m "Add a new feature"
+Push to the branch: git push origin my-feature
+Submit a pull request, explaining your changes and their purpose.
+Please follow the project's code style conventions and ensure that all tests pass before submitting your pull request.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+License
+This project is licensed under the MIT License. For more details, please see the LICENSE.md file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Author
+Dmytro Cheremnov - cheremnovdv@gmail.com
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to customize this template according to your specific requirements and additional sections you may want to include.
