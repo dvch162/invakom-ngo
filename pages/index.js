@@ -58,7 +58,7 @@ return (
           />
         </div>
 
-        <div className={styles.grid}>
+        {/* <div className={styles.grid}>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
@@ -116,7 +116,7 @@ return (
             </p>
           </a>
 
-        </div>
+        </div> */}
           <br />
           <br />
           <About />

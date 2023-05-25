@@ -58,14 +58,12 @@ export default function Header () {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          border-top: 2px solid black;
           padding: 10px;
         }
         .lower-line {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          border-bottom: 2px solid black;
           padding: 10px;
         }
         .logo {
